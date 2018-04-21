@@ -19,7 +19,7 @@ let arg1 = process.argv[2];
 let arg2 = process.argv[3];
 
 switch (arg1) {
-    case 'my-tweets':
+    case 'mi-tweets':
         client.get('statuses/home_timeline', function(error, tweets, response) {
             if (error) throw error;
             console.log(tweets);
